@@ -23,6 +23,15 @@ export const metadata: Metadata = {
     initialScale: 1,
     maximumScale: 5,
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon1.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' },
+    ],
+  },
 };
 
 export default function RootLayout({

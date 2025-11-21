@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable @next/next/no-img-element */
 
 import { projects } from '@/data/portfolio-data';
 
@@ -34,7 +35,7 @@ export default function Projects() {
                             <Wrapper
                                 key={project.id}
                                 {...wrapperProps}
-                                className="group relative flex flex-col gap-6 block"
+                                className="group relative flex flex-col gap-6"
                             >
                                 {/* Image Container */}
                                 <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-gray-800 bg-gray-900">
@@ -107,7 +108,7 @@ export default function Projects() {
                 </div>
 
                 <div className="mt-20 text-center">
-                    <a href="#" className="inline-flex items-center gap-2 text-white border-b border-white pb-1 hover:text-purple-400 hover:border-purple-400 transition-colors uppercase tracking-widest text-sm font-bold">
+                    <a href="/projects" className="inline-flex items-center gap-2 text-white border-b border-white pb-1 hover:text-purple-400 hover:border-purple-400 transition-colors uppercase tracking-widest text-sm font-bold">
                         View All Projects
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
