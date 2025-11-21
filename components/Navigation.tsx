@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 import { personalInfo } from '@/data/portfolio-data';
 
 const navLinks = [
@@ -12,6 +13,8 @@ const navLinks = [
 export default function Navigation() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const pathname = usePathname();
+    const router = useRouter();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -23,10 +26,17 @@ export default function Navigation() {
     }, []);
 
     const scrollToSection = (id: string) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-            setIsMobileMenuOpen(false);
+        setIsMobileMenuOpen(false);
+
+        if (pathname === '/') {
+            // If on home page, smooth scroll
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // If on other pages, navigate to home with hash
+            router.push(`/#${id}`);
         }
     };
 
@@ -80,7 +90,7 @@ export default function Navigation() {
                         onClick={() => scrollToSection('hero')}
                         className="text-xl font-bold text-white"
                     >
-                        Sanches
+                        Mr.Baig
                     </button>
 
                     <button
