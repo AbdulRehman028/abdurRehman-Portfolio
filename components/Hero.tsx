@@ -56,10 +56,10 @@ export default function Hero() {
                         </h2>
 
                         <a
-                            href="/about"
+                            href="/Muhammad Abdulrehman_Resume.pdf"
                             className="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-gray-600 hover:bg-white hover:text-black hover:border-white transition-all uppercase text-sm font-bold tracking-widest group"
                         >
-                            About me
+                            Resume
                             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">↗</span>
                         </a>
                     </div>
