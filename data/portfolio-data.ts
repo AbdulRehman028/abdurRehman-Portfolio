@@ -147,7 +147,7 @@ export const experiences: Experience[] = [
     company: "Dofday Solutions • Lahore, Punjab",
     position: "Full Stack AI Engineer",
     duration: "02/2024 – 06/2024",
-    description: "Developed and maintained multiple client projects, implemented CI/CD pipelines, and collaborated with design teams to create pixel-perfect interfaces.",
+    description: "Developed and deployed multiple AI applications, integrated RAG systems and LangChain pipelines, automated workflows using n8n, and implemented CI/CD pipelines for scalable, intelligent solutions.",
     technologies: ["Machine Learning", "LangChain", "PyTorch", "RAG", "OpenAI", "Docker", "AWS"],
   },
 
