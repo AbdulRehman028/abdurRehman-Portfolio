@@ -5,7 +5,7 @@ import { personalInfo } from '@/data/portfolio-data';
 
 export default function About() {
     return (
-        <section id="about" className="section bg-black text-white py-20 relative overflow-hidden">
+        <section id="about" className="section bg-black text-white py-20 relative overflow-hidden border-y border-gray-900">
             {/* Background Elements */}
             <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-purple-900/10 to-transparent pointer-events-none" />
 
