@@ -82,7 +82,7 @@ export const projects: Project[] = [
     description: "A modern, full-featured freelancing platform with real-time chat, job management, and Bidding System",
     longDescription: "Built a complete freelancing platform with Next.js, Node.js, and MongoDB. Implemented real-time inventory updates using WebSockets.",
     tags: ["Next.js", "Node.js", "MongoDB", "Tailwind", "Socket.io", "WebSockets"],
-    image: "https://media.licdn.com/dms/image/v2/D5612AQF8GGlQaYG9Vw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1686137572046?e=2147483647&v=beta&t=UQPHh_ywy3TqW8jBb_S6S_b_Dxb7GswZf9VsUzWmNnw",
+    image: "/moqa.webp",
     liveUrl: "https://moqa.vercel.app/",
     // githubUrl: "https://github.com/yourusername/project",
     featured: true,
