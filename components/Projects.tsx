@@ -17,7 +17,7 @@ export default function Projects() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-                    {projects.map((project) => {
+                    {projects.slice(0, 4).map((project) => {
                         const hasLive = !!project.liveUrl;
                         const hasGithub = !!project.githubUrl;
                         const hasBoth = hasLive && hasGithub;

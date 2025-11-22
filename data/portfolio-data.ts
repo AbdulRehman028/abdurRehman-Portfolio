@@ -20,6 +20,7 @@ export interface Project {
   liveUrl?: string;
   githubUrl?: string;
   featured: boolean;
+  category: 'AI' | 'Web' | 'App';
 }
 
 export interface Experience {
@@ -86,6 +87,7 @@ export const projects: Project[] = [
     liveUrl: "https://moqa.vercel.app/",
     // githubUrl: "https://github.com/yourusername/project",
     featured: true,
+    category: "Web",
   },
   {
     id: 2,
@@ -97,6 +99,7 @@ export const projects: Project[] = [
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/yourusername/project",
     featured: true,
+    category: "AI",
   },
   {
     id: 3,
@@ -108,6 +111,7 @@ export const projects: Project[] = [
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/yourusername/project",
     featured: true,
+    category: "Web",
   },
   {
     id: 4,
@@ -118,6 +122,7 @@ export const projects: Project[] = [
     image: "https://cdn-images.visual-paradigm.com/features/v14/2/built-in_task_manager.png",
     githubUrl: "https://github.com/yourusername/project",
     featured: false,
+    category: "App",
   },
 ];
 
