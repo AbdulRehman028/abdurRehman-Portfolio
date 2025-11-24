@@ -1,8 +1,6 @@
 // ====================================
 // PORTFOLIO DATA
 // ====================================
-// This file contains all the mock data for your portfolio.
-// Simply replace the values below with your own information.
 
 export interface SocialLink {
   name: string;
