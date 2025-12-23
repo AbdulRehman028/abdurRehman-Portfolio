@@ -47,7 +47,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Right Column: Image/Visual */}
+                    {/* Right Column: Image/Visua */}
                     <div className="relative group">
                         <div className="absolute inset-0 bg-gradient-to-tr from-purple-600 to-pink-600 rounded-[2rem] rotate-6 opacity-20 group-hover:rotate-12 transition-transform duration-500 blur-xl" />
                         <div className="relative rounded-[2rem] overflow-hidden border border-gray-800 bg-gray-900 aspect-[4/5]">
