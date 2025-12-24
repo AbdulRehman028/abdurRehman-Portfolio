@@ -57,7 +57,7 @@ export default function About() {
                                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                             />
 
-                            {/* Floating Badge */}
+                            {/* Flating Badge */}
                             <div className="absolute bottom-8 left-8 right-8 bg-black/80 backdrop-blur-md p-6 rounded-2xl border border-gray-800 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-100">
                                 <p className="text-white font-medium">"Design is intelligence made visible."</p>
                                 <p className="text-gray-500 text-sm mt-2">- Alina Wheeler</p>
