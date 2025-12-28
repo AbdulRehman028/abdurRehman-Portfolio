@@ -52,7 +52,7 @@ export default function About() {
                         <div className="absolute inset-0 bg-gradient-to-tr from-purple-600 to-pink-600 rounded-[2rem] rotate-6 opacity-20 group-hover:rotate-12 transition-transform duration-500 blur-xl" />
                         <div className="relative rounded-[2rem] overflow-hidden border border-gray-800 bg-gray-900 aspect-[4/5]">
                             <img
-                                src="https://lh3.googleusercontent.com/a/ACg8ocK0_ns8Vo7eWKYi31GgJ5nRCtypdJTcI-Y82waDqtKGMsqbn4TA=s317-c-no"
+                                src="/baig.jpg"
                                 alt="Portrait"
                                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                             />
