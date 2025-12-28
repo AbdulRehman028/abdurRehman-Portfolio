@@ -33,7 +33,7 @@ export default function Hero() {
 
 
                     <h1 className="text-[clamp(4rem,11vw,9rem)] font-black leading-[0.85] tracking-tighter uppercase relative z-10">
-                        <span className="block text-white mb-2">HI THERE</span>
+                        <span className="block text-white mb-2"><span className="text-[#8b5cf6]">HI</span> THERE</span>
                         <span className="block text-white">I'M {personalInfo.name}</span>
                         <span className="relative inline-block mt-2">
                             <span className="absolute -inset-2 border-2 border-dashed border-purple-500/50 rounded-lg animate-pulse"></span>
