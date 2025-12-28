@@ -56,7 +56,7 @@ export default function Hero() {
                         </h2>
 
                         <a
-                            href="/Muhammad Abdulrehman_Resume.pdf"
+                            href="/M.AbdurRehman-Resume.pdf"
                             className="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-gray-600 hover:bg-white hover:text-black hover:border-white transition-all uppercase text-sm font-bold tracking-widest group"
                         >
                             Resume
